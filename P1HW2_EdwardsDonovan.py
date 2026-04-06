@@ -1,5 +1,5 @@
 # Donovan Edwards
-# Oct. 14th 2025
+# Apr. 6th 2025
 # P1HW2
 # Python script for calculating expenses based on a travel plan
 
@@ -20,7 +20,7 @@ costLodging = int(input())
 print("\n\nLast, how much do you need for food?", end=" ")
 costFood = int(input())
 
-remainingBudget = totalBudget - costGas - costLodging - costFood # Kind of redundant because you could just do the calculation on the print call but whateverr
+remainingBudget = totalBudget - costGas - costLodging - costFood
 
 print("------------Travel Expenses------------", end="\n")
 print("Location:", location, end="\n")

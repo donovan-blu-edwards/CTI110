@@ -1,5 +1,5 @@
 # Donovan Edwards
-# Oct. 14th 2025
+# Apr. 6th 2025
 # P1HW1
 # Python script that prompts the user number values to do different calculations
 
@@ -9,7 +9,7 @@ expoBase = int(input())
 print("Enter an integer as the exponent:", end=" ")
 expoExpo = int(input())
 
-expoResult = expoBase ** expoExpo
+expoResult = expoBase**expoExpo
 print("\n\n", expoBase, "raised to the power of", expoExpo, "is", expoResult, "!!")
 
 print("\n\n-----Addition and Subtraction-----", end="\n\n")
