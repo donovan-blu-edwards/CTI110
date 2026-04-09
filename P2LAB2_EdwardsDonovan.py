@@ -1,5 +1,5 @@
 # Donovan Edwards
-# Nov. 4th 2025
+# Apr. 9th 2025
 # P2LAB2
 # Python script that stores cars' MPG in a dictionary and tells how many gallon need to drive a distance
 
@@ -10,7 +10,7 @@ carsDict = {
     "Silverado": 26.0,
 }
 
-# pun of sorts
+# well i gotta leave the pun
 carKeys = carsDict.keys()
 
 print("Enter a vehicle to see it's MPG:", end=" ")
@@ -23,4 +23,10 @@ desiredMiles = float(input())
 
 neededGallons = desiredMiles / carsDict[carName]
 
-print(f"{neededGallons:.2f}", "gallon(s) of gas are needed to drive the", carName, desiredMiles, "miles")
+print(
+    f"{neededGallons:.2f}",
+    "gallon(s) of gas are needed to drive the",
+    carName,
+    desiredMiles,
+    "miles",
+)
