@@ -1,5 +1,5 @@
 # Donovan Edwards
-# Nov. 4th 2025
+# Apr. 9th 2026
 # P2LAB1
 # Python script for calculating the properties of a circle based on it's radius
 
@@ -12,7 +12,7 @@ circleRadius = float(input())
 
 circleDiameter = circleRadius * 2.0
 circleCircumference = 2.0 * PI * circleRadius
-circleArea = PI * circleRadius ** 2.0
+circleArea = PI * circleRadius**2.0
 
 print("The diameter of the circle is", f"{circleDiameter:.1f}")
 print("The circumference of the circle is", f"{circleCircumference:.2f}")
