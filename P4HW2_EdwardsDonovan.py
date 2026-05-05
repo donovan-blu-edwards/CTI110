@@ -8,12 +8,9 @@ totalRegularPay = 0.0
 totalOvertimePay = 0.0
 totalPay = 0.0
 
-while True:
-    employeeName = input('Enter employee\'s name or type "Done" to terminate: ')
+employeeName = input('Enter employee\'s name or type "Done" to terminate: ')
 
-    if employeeName == "Done":
-        break
-
+while employeeName != "Done":
     employeeCount += 1
 
     hoursWorked = float(input(f"How many hours did {employeeName} work? "))
@@ -43,6 +40,8 @@ while True:
         f"{hoursWorked:<20.1f}{payRate:<20.2f}{overTimeHours:<20.1f}{overTimePay:<20.2f}${regHourPay:<19.2f}${grossPay:.2f}",
         end="\n\n",
     )
+
+    employeeName = input('Enter employee\'s name or type "Done" to terminate: ')
 
 print("")
 
